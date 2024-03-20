@@ -12,20 +12,20 @@ const Header = () => {
         <Link href="/" className="w-36">
           <Image 
             src="/assets/images/logo.svg" width={128} height={38}
-            alt="Evently Logo"
+            alt="Evently logo" 
           />
         </Link>
 
         <SignedIn>
           <nav className="md:flex-between hidden w-full max-w-xs">
-            <NavItems/>
+            <NavItems />
           </nav>
         </SignedIn>
 
         <div className="flex w-32 justify-end gap-3">
           <SignedIn>
-            <UserButton afterSignOutUrl="/"/>
-            <MobileNav/>
+            <UserButton afterSignOutUrl="/" />
+            <MobileNav />
           </SignedIn>
           <SignedOut>
             <Button asChild className="rounded-full" size="lg">
